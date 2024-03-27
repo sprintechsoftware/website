@@ -1,7 +1,7 @@
-<h1 class="text-3xl font-bold underline text-green-950 ">Hello world!</h1>
+<h1 class="text-3xl font-bold underline">Hello world!</h1>
 
 <style lang="postcss">
     :global(html) {
-        background-color: theme(colors.gray.100);
+        background-color: theme(colors.black.800);
     }
 </style>
