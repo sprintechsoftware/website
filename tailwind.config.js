@@ -7,6 +7,12 @@ export default {
         black: {
           800: '#131212'
         } ,
+        lime: {
+          10: '#B4FF00'
+        },
+        traspgray: {
+          100: 'rgba(46, 52, 54, 0.29)'
+        }
       },
     },
   },
