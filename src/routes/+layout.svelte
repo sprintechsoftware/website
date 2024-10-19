@@ -8,6 +8,7 @@
 <main>
     <slot />
 </main>
+<footer id="contato"><Footer></Footer></footer>
 
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
@@ -16,8 +17,8 @@
         background: rgb(19, 18, 18);
         background: linear-gradient(
             180deg,
-            rgba(19, 18, 18, 1) 0%,
-            rgba(16, 22, 0, 1) 100%
+            #0f0e0e 0%,
+            rgb(3, 3, 0) 100%
         );
         background-attachment: fixed;
         background-size: cover;
@@ -30,7 +31,7 @@
     }
 
     :global(body) {
-        margin: 1rem 4rem 2rem;
+        margin-top: 1rem;
     }
 
     :global(body::-webkit-scrollbar) {
