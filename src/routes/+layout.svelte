@@ -4,34 +4,20 @@
     import Footer from "../lib/footer.svelte";
 </script>
 
-<header><Header></Header></header>
-<main>
-    <slot />
-</main>
-<footer id="contato"><Footer></Footer></footer>
+<div class="h-full w-full [background:radial-gradient(120%_150%_at_50%_10%,#000_40%,#223a00_100%)]">
+    <header><Header></Header></header>
+    <main>
+        <slot />
+    </main>
+    <footer id="contato"><Footer></Footer></footer>
+</div>
 
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
     :global(html) {
-        background: rgb(19, 18, 18);
-        background: linear-gradient(
-            180deg,
-            #0f0e0e 0%,
-            rgb(3, 3, 0) 100%
-        );
-        background-attachment: fixed;
-        background-size: cover;
-
-        min-height: 100vh;
-
         font-family: "Plus Jakarta Sans", sans-serif;
-
         scroll-behavior: smooth;
-    }
-
-    :global(body) {
-        margin-top: 1rem;
     }
 
     :global(body::-webkit-scrollbar) {
@@ -44,5 +30,6 @@
 
     :global(body::-webkit-scrollbar-thumb) {
         background-color: #b4ff00; /* color of the scroll thumb */
+        background-color: #223a00;
     }
 </style>

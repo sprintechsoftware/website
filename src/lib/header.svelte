@@ -6,7 +6,7 @@
     let open;
 </script>
 
-<div id="header-component" class="w-full bg-transparent flex items-center justify-between pl-8 pr-8 lg:pl-16 lg:pr-16 text-white">
+<div id="header-component" class="w-full bg-transparent flex items-center justify-between pt-2 pl-8 pr-8 lg:pl-16 lg:pr-16 text-white">
     <img src={logo} alt="Sprintech Logo" title="Sprintech Logo" class="max-w-14" />
     <ul class="flex items-center gap-2 lg:gap-8 text-base lg:text-xl font-semibold">
         <li><a href="#inicio">Inicio</a></li>
