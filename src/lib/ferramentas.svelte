@@ -8,7 +8,7 @@
 
 <div id="servicos-component" class="flex flex-col gap-16 pt-16 w-full items-center">
     <h1 class="text-2xl lg:text-4xl font-normal text-white">Nossa caixa de <span class="text-lime-10">Ferramentas</span></h1>
-    <section id="icons" class="flex flex-wrap items-center justify-center gap-12 lg:gap-20 w-11/12 lg:w-full">
+    <section id="icons" class="flex flex-wrap items-center justify-center gap-12 lg:gap-20 w-11/12 lg:w-full ">
         <img src={csharp} alt="Csharp Logo" class="icones w-16 lg:w-20 lg:grayscale hover:filter-none">
         <img src={svelte} alt="Svelte Logo" class="icones w-36 lg:w-48 lg:grayscale hover:filter-none">
         <img src={dotnet} alt="Dotnet Logo" class="icones w-16 lg:w-20 lg:grayscale hover:filter-none">
