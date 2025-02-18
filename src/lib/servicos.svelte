@@ -6,7 +6,7 @@
 </script>
 
 <div id="servicos-component" class="flex flex-col gap-8 w-full items-center">
-    <h1 class="text-2xl lg:text-4xl font-bold text-lime-10">Serviços</h1>
+    <h1 class="text-2xl lg:text-4xl font-medium text-lime-10">Serviços</h1>
     <section id="cards" class="flex flex-col lg:flex-row gap-12 items-center">
         <div id="one" class="w-72 lg:w-80 h-96 rounded-xl flex flex-col gap-8 items-start p-8 bg-traspgray-100 border-white text-white backdrop-blur-3xl">
             <div class="flex flex-col gap-2">

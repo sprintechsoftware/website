@@ -5,7 +5,7 @@
     import github from "../images/github.png";
 </script>
 
-<div id="footer-component" class="border-t-2 w-full border-traspgray-100 flex flex-col gap-8 items-center pl-16 pr-16 pt-8 pb-8 bg-black-950">
+<div id="footer-component" class="border-t-2 w-full border-traspgray-100 flex flex-col gap-8 items-center pl-16 pr-16 pt-8 pb-8">
     <div id="one" class="w-full justify-between flex flex-col lg:flex-row gap-8 lg:gap-1">
         <div id="left" class="flex gap-8 items-center justify-center">
             <img src={logo} alt="Sprintech Logo" title="Sprintech Logo" class="max-w-14">
@@ -20,5 +20,5 @@
             </ul>
         </div>
     </div>
-    <p class="text-white font-medium text-sm lg:text-lg">© 2024 Sprintech. All Rights Reserved.</p>
+    <p class="text-white font-light text-sm lg:text-base">© 2024 Sprintech. All Rights Reserved.</p>
 </div>

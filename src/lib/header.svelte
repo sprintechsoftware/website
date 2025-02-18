@@ -6,13 +6,13 @@
     let open;
 </script>
 
-<div id="header-component" class="w-full bg-transparent flex items-center justify-between pt-2 pl-8 pr-8 lg:pl-16 lg:pr-16 text-white">
+<div id="header-component" class="w-full bg-transparent flex items-center justify-between pt-4 pl-8 pr-8 lg:pl-16 lg:pr-16 text-white">
     <img src={logo} alt="Sprintech Logo" title="Sprintech Logo" class="max-w-14" />
-    <ul class="flex items-center gap-2 lg:gap-8 text-base lg:text-xl font-semibold">
+    <ul class="flex items-center gap-2 lg:gap-8 text-base">
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#servicos">Servicos</a></li>
         <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#contato" class="text-xl p-6 pt-3 pb-3 bg-lime-10 rounded-xl text-black-800 flex items-center justify-center font-semibold">Contato</a></li>
+        <li><a href="#contato" class="text-lg py-1 px-4 bg-lime-10 rounded-md text-black-800 flex items-center justify-center font-semibold">Contato</a></li>
     </ul>
     <div class="hamburguer-icon">
         <Hamburger class="hamburguer-icon" --layer-spacing="8px" --layer-height="2px" --border-radius="10px" --color="#c9ff00" bind:open  />
